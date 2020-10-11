@@ -15,6 +15,10 @@ public class MyQueue<T> {
 		return myLinkedList.head;
 	}
 
+	public INode<T> dequeue() {
+		return myLinkedList.pop();
+	}
+
 	public void printStack() {
 		myLinkedList.printMyNodes();
 	}
